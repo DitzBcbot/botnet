@@ -20,7 +20,9 @@ TEBAK JUDUL LAGU
 Timeout *${(timeout / 1000).toFixed(2)} detik*
 Ketik *${usedPrefix}cek* untuk bantuan
 Bonus: ${poin} XP
-*Balas pesan ini untuk menjawab!*`.trim()
+*Balas pesan ini untuk menjawab!*
+
+maaf jika masih ada bug`.trim()
     conn.tebaklagu[id] = [
         await conn.sendBut(m.chat, caption, wm, 'Bantuan', '.cek', m),
         json, poin,
@@ -34,5 +36,4 @@ Bonus: ${poin} XP
 handler.help = ['tebaklagu']
 handler.tags = ['game']
 handler.command = /^tebaklagu$/i
-handler.limit = true
 module.exports = handler

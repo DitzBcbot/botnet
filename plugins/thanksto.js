@@ -45,8 +45,8 @@ https://github.com/saipulanuar
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
-               displayText: 'My Github',
-               url: 'https://github.com/NevtBotz'
+               displayText: 'Group',
+               url: 'https://chat.whatsapp.com/Dxtz9xAxial3A43AJetabY'
              }
 
            },

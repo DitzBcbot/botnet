@@ -14,5 +14,7 @@ handler.help = ['ytv720 <url>']
 handler.tags = ['internet']
 handler.command = /^ytv720$/i
 
+handler.premium = true
+
 
 module.exports = handler

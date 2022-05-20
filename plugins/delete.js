@@ -9,5 +9,6 @@ handler.tags = ['main']
 
 handler.command = /^del|delete|unsend?$/i
 handler.register = false
+handler.premium = true
 
 module.exports = handler

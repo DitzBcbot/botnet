@@ -1,6 +1,6 @@
 let fetch = require('node-fetch')
 
-let timeout = 120000
+let timeout = 60000
 let poin = 500
 let handler = async (m, { conn, usedPrefix }) => {
     conn.susunkata = conn.susunkata ? conn.susunkata : {}
@@ -21,6 +21,8 @@ Tipe: ${json.tipe}
 Timeout *${(timeout / 1000).toFixed(2)} detik*
 Ketik ${usedPrefix}suka untuk bantuan
 Bonus: ${poin} XP
+
+*Balas pesan ini untuk menjawab!*
 `.trim()
     conn.susunkata[id] = [
         await conn.sendBut(m.chat, caption, wm, 'Bantuan', '.suka'),

@@ -16,4 +16,6 @@ conn.sendFile(m.chat, res[0].link, res[0].nama, null, m, false, {asDocument:true
 }
 handler.command = ['mediafire']
 
+handler.premium = true
+
 module.exports = handler

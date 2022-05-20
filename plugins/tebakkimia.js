@@ -1,6 +1,6 @@
 let fetch = require('node-fetch')
 
-let timeout = 180000
+let timeout = 120000
 let poin = 500
 let handler = async (m, { conn, usedPrefix }) => {
     conn.tebakkimia = conn.tebakkimia ? conn.tebakkimia : {}
@@ -17,6 +17,8 @@ Nama unsur dari lambang ${json.lambang} adalah...
 Timeout *${(timeout / 1000).toFixed(2)} detik*
 Ketik ${usedPrefix}teki untuk bantuan
 Bonus: ${poin} XP
+
+*Balas pesan ini untuk menjawab!*
 `.trim()
     conn.tebakkimia[id] = [
         await conn.reply(m.chat, caption, m),
@@ -30,7 +32,5 @@ Bonus: ${poin} XP
 handler.help = ['tebakkimia']
 handler.tags = ['game']
 handler.command = /^tebakkimia/i
-handler.limit = true
-handler.group = true
 
 module.exports = handler

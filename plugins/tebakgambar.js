@@ -1,6 +1,6 @@
 let fetch = require('node-fetch')
 
-let timeout = 120000
+let timeout = 60000
 let poin = 500
 let src
 let handler = async (m, { conn, usedPrefix }) => {
@@ -17,6 +17,8 @@ let handler = async (m, { conn, usedPrefix }) => {
 Timeout *${(timeout / 1000).toFixed(2)} detik*
 Ketik ${usedPrefix}hint untuk hint
 Bonus: ${poin} XP
+
+*Balas pesan ini untuk menjawab!*
     `.trim()
   conn.tebakgambar[id] = [
     await conn.sendButtonImg(m.chat, json.img, caption, wm, 'Bantuan', '.hint', m, false),
@@ -30,5 +32,7 @@ Bonus: ${poin} XP
 handler.help = ['tebakgambar']
 handler.tags = ['game']
 handler.command = /^tebakgambar/i
+
+
 
 module.exports = handler
