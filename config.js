@@ -16,7 +16,7 @@ second: 'numeric'
 
 function pickRandom(list) {
   return list[Math.floor(Math.random() * list.length)]
-}global.owner = ['6281805450249'] // Put your number here
+}global.owner = ['6283133162295'] // Put your number here
 global.mods = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 global.APIs = { // API Prefix
@@ -47,7 +47,7 @@ global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
   'https://melcanz.com': 'ZZBk7EBb',
   'https://hardianto.xyz': 'hardianto',
-  'https://api.xteam.xyz': 'apilu',
+  'https://api.xteam.xyz': 'd90a9e986e18778b',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://bsbt-api-rest.herokuapp.com': 'benniismael',
   'https://api.zeks.xyz': 'apivinz',
@@ -55,21 +55,21 @@ global.APIKeys = { // APIKey Here
   'https://pencarikode.xyz': 'pais', 
   'https://leyscoders-api.herokuapp.com': 'dappakntlll',
   'https://zekais-api.herokuapp.com': 'zekais',
-  'https://api.lolhuman.xyz': 'apilu',
+  'https://api.lolhuman.xyz': 'pkebgk8248jskrkfm',
 }
 //cari apikey sendiri ya gaes yak
 
 // Sticker WM
 global.stiker_wait = 'Stiker sedang dibuat'
-global.packname = 'NEVT-MD'
-global.author = `N E V T－MD
+global.packname = '62831331622951'
+global.author = `bot
 
 
 
 
 
 ig: senpai_chan_gemoy`
-global.wm = 'N E V T－ＭＤ'
+global.wm = 'Bott 🍭🍬'
 global.watermark = wm
 global.botdate = '╭──────────═┅═─────────\n│◪ ${time}\n┊◪ ${week} ${date}\n╰──────────═┅═─────────'
 global.media = 'https://telegra.ph/file/778acaaf9c0c5ec6265a3.jpg'
